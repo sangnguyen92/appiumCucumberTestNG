@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                bat "mvn clean verify"
+                bat "mvn clean test -DsuiteXmlFile="testng.xml""
             }
  
             post {                
