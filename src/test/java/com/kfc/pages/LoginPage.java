@@ -35,9 +35,7 @@ public class LoginPage extends BasePage {
 	public LoginPage accessPage(){
 		click(dennyBtn);
 		click(popupBtn);
-//		if (isVisibility(popupBtn) == true){
-//			click(popupBtn);
-//		}
+
 		click(accountIcon);
 		return this;
 	}
